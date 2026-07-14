@@ -9,12 +9,14 @@ String developer="Google";
 boolean isBeta=false;
 int releaseYear=2008;
 char shortcutKey='C';
+String releasemonth = "June";
 
 System.out.println("Version = "+ version);
 System.out.println("Developer = "+ developer);
 System.out.println("IsBeta = "+ isBeta);
 System.out.println("ReleaseYear = "+ releaseYear);
 System.out.println("ShortcutKey = "+ shortcutKey);
+System.out.println("ReleaseMonth = "+ releasemonth);
 
 	}
 
