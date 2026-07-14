@@ -26,7 +26,7 @@ public class Dropdown {
 		
 		WebElement marketingDD=driver.findElement(By.id("createLeadForm_marketingCampaignId"));
 		Select marketing=new Select(marketingDD);
-		marketing.selectByContainsVisibleText("Automobile");
+		marketing.selectByVisibleText("Automobile");
 		
 		WebElement ownershipDD=driver.findElement(By.id("createLeadForm_ownershipEnumId"));
 		Select ownership=new Select(ownershipDD);

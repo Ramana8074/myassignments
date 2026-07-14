@@ -58,7 +58,7 @@ public class ServiceNowMarathon {
 		//Selecting Unlimited under "Monthly data allowance DD"
 		WebElement dataallowanceDD = driver.findElement(By.xpath("//select[@name='IO:ff1f478e9747011021983d1e6253af68']"));
 		Select dataallowance = new Select(dataallowanceDD);
-		dataallowance.selectByContainsVisibleText("Unlimited [add $4.00]");
+		dataallowance.selectByVisibleText("Unlimited [add $4.00]");
 		
 		//Selecting Sierra Blue and 512GB storage radio buttons and click on "Order Now"
 		driver.findElement(By.xpath("//label[text()='Sierra Blue']")).click();
