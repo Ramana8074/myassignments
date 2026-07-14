@@ -6,7 +6,7 @@ import org.openqa.selenium.WebElement;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
-public class DynamicParametrizationCucumber extends BaseClassDynamicCucumber{
+public class DynamicParametrizationCucumber extends stepDefinition.BaseClassDynamicCucumber {
 	
 
 	@When("The username is {string}")

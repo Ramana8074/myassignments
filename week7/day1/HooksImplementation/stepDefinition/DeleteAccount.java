@@ -1,4 +1,4 @@
-package stepDefinition;
+package week7.day1.HooksImplementation.stepDefinition;
 
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;

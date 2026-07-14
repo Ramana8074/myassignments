@@ -1,4 +1,4 @@
-package runner;
+package week7.day1.HooksImplementation.runner;
 
 import io.cucumber.testng.CucumberOptions;
 import stepDefinition.BaseClassForHooks;

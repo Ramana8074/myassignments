@@ -1,4 +1,4 @@
-package runner;
+package week7.day1.StaticParametrizationCucumber.runner;
 
 import io.cucumber.testng.CucumberOptions;
 import stepDefinition.BaseClassStaticCucumber;

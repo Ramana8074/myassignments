@@ -1,4 +1,4 @@
-package stepDefinition;
+package week7.day1.StaticParametrizationCucumber.stepDefinition;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
