@@ -8,7 +8,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
-import stepDefinition.BaseClassForHooks;
+import week7.day1.HooksImplementation.stepDefinition.BaseClassForHooks;
 
 public class HooksImplementation extends BaseClassForHooks{
 

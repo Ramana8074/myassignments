@@ -1,7 +1,7 @@
 package week7.day1.HooksImplementation.runner;
 
 import io.cucumber.testng.CucumberOptions;
-import stepDefinition.BaseClassForHooks;
+import week7.day1.HooksImplementation.stepDefinition.BaseClassForHooks;
 
 @CucumberOptions(features= {"src/test/java/features"},
 glue="stepDefinition",

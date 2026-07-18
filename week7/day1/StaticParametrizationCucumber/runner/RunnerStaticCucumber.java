@@ -1,10 +1,10 @@
 package week7.day1.StaticParametrizationCucumber.runner;
 
 import io.cucumber.testng.CucumberOptions;
-import stepDefinition.BaseClassStaticCucumber;
+import week7.day1.StaticParametrizationCucumber.stepDefinition.BaseClassStaticCucumber;
 
-@CucumberOptions(features= {"src/main/java/features/editAccountStaticCucumber.feature"},
-glue="stepDefinition",
+@CucumberOptions(features= {"week7/day1/StaticParametrizationCucumber/features/editAccountStaticCucumber.feature"},
+glue="week7.day1.StaticParametrizationCucumber.stepDefinition",
 publish=true, 
 tags="@EditAccount")
 

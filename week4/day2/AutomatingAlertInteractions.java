@@ -9,7 +9,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 //Creating a class to interact with the Alerts (Home assignment)
 public class AutomatingAlertInteractions {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws InterruptedException {
 		
 		//initializing the Chrome WebDriver
 		ChromeDriver driver = new ChromeDriver();
@@ -28,15 +28,19 @@ public class AutomatingAlertInteractions {
 		Alert alert = driver.switchTo().alert();
 		
 		//Initialized a String variable to s to save the text to be entered in the alert
+		Thread.sleep(3000);
 		String s = "Sravani";
 		
 		//The String 's' has been passed to the alert
+		Thread.sleep(2000);
 		alert.sendKeys(s);
 		
 		//Alert will be accepted
+		Thread.sleep(2000);
 		alert.accept();
 		
 		//To get the text displayed after accepting the alert
+		Thread.sleep(2000);
 		String text = driver.findElement(By.xpath("//span[@id='confirm_result']")).getText();
 		
 		//To verify the text displayed with the input String 's'
@@ -45,6 +49,8 @@ public class AutomatingAlertInteractions {
 		} else {
 			System.out.println("The input is invalid");
 		}
+
+		driver.close();
 	}
 
 }
